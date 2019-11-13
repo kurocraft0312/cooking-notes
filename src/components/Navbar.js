@@ -7,11 +7,12 @@ const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      active: false,
+      active: false,//ハンバーガーメニューの階層を閉めている
       navBarActiveClass: '',
     }
   }
 
+  // ハンバーガーに関する事柄
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
@@ -50,6 +51,7 @@ const Navbar = class extends React.Component {
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
+              {/* ハンバーガーメニューボタン */}
               <span />
               <span />
               <span />
