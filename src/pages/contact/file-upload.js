@@ -46,7 +46,7 @@ export default class Contact extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>File Upload</h1>
+              <h2>File Upload</h2>
               <form
                 name="file-upload"
                 method="post"
