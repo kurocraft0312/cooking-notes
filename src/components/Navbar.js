@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
+// Reactにnavbarコンポーネントを拡張している
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
