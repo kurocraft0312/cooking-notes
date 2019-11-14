@@ -39,7 +39,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h2>Contact</h2>
+              <h2>お問い合わせ</h2>
               <form
                 name="contact"
                 method="post"
@@ -56,9 +56,34 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
+                {/* 後でここを治す */}
+                {/* 項目ラベル */}
+                <div className="field">
+                  <label className="label" htmlFor={'contacttype'}>
+                    お問い合わせ内容をお選びください
+                  </label>
+                  {/* 入力欄 */}
+                  <div className="control">
+                    <select 
+                      name={'selecttype'}
+                      id={'select'}
+                      required={true}
+                    />
+                      {/* 選択肢 */}
+                      <option
+                        value={'お仕事のご依頼やご相談'}
+                      />
+                      <option
+                        value={'コラボレーションやイベントのお誘い'}
+                      />
+                      <option
+                        value={'その他'}
+                      />
+                  </div>
+                </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    担当者様のお名前をご入力ください
                   </label>
                   <div className="control">
                     <input
@@ -73,7 +98,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    ご連絡先のメールアドレスをご入力ください
                   </label>
                   <div className="control">
                     <input
@@ -88,7 +113,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                  ご質問・ご不明点・ご相談内容の詳細・その他事前にお伝えしておきたい事柄などをご入力ください
                   </label>
                   <div className="control">
                     <textarea
@@ -102,7 +127,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    送信する
                   </button>
                 </div>
               </form>
