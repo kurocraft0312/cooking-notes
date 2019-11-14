@@ -64,21 +64,11 @@ export default class Index extends React.Component {
                   </label>
                   {/* 入力欄 */}
                   <div className="control">
-                    <select 
-                      name={'selecttype'}
-                      id={'select'}
-                      required={true}
-                    />
-                      {/* 選択肢 */}
-                      <option
-                        value={'お仕事のご依頼やご相談'}
-                      />
-                      <option
-                        value={'コラボレーションやイベントのお誘い'}
-                      />
-                      <option
-                        value={'その他'}
-                      />
+                    <select name={'selecttype'} class={'select'} required={true}>
+                      <option value={'お仕事のご依頼やご相談'}>お仕事のご依頼やご相談</option>
+                      <option value={'コラボレーションやイベントのお誘い'}>コラボレーションやイベントのお誘い</option>
+                      <option value={'その他'}>その他</option>
+                    </select>
                   </div>
                 </div>
                 <div className="field">
@@ -129,7 +119,6 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                {/* ここから */}
                 <div className="field">
                   <label className="label" htmlFor={'tel'}>
                     ご連絡先のお電話番号をご入力ください
@@ -146,7 +135,6 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                {/* ここまで */}
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
                   ご質問・ご不明点・ご相談内容の詳細・その他事前にお伝えしておきたい事柄などをご入力ください
