@@ -82,6 +82,21 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
+                  <label className="label" htmlFor={'company'}>
+                    所属する会社名をご入力ください
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'companyname'}
+                      onChange={this.handleChange}
+                      id={'companyname'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
                   <label className="label" htmlFor={'name'}>
                     担当者様のお名前をご入力ください
                   </label>
@@ -125,7 +140,7 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                <div className="field">
+                <div className="field submitbutton">
                   <button className="button is-link" type="submit">
                     送信する
                   </button>
