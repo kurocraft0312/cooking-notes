@@ -64,7 +64,7 @@ export default class Index extends React.Component {
                   </label>
                   {/* 入力欄 */}
                   <div className="control">
-                    <select name={'selecttype'} class={'select'} required={true}>
+                    <select name={'selecttype'} className={'select'} required={true}>
                       <option value={'お仕事のご依頼やご相談'}>お仕事のご依頼やご相談</option>
                       <option value={'コラボレーションやイベントのお誘い'}>コラボレーションやイベントのお誘い</option>
                       <option value={'その他'}>その他</option>
