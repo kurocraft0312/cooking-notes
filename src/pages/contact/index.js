@@ -56,13 +56,10 @@ export default class Index extends React.Component {
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
-                {/* 後でここを治す */}
-                {/* 項目ラベル */}
                 <div className="field">
                   <label className="label" htmlFor={'contacttype'}>
                     お問い合わせ内容をお選びください
                   </label>
-                  {/* 入力欄 */}
                   <div className="control">
                     <select name={'selecttype'} className={'select'} required={true}>
                       <option value={'お仕事のご依頼やご相談'}>お仕事のご依頼やご相談</option>
@@ -137,7 +134,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                  ご質問・ご不明点・ご相談内容の詳細・その他事前にお伝えしておきたい事柄などをご入力ください
+                    ご質問・ご不明点・ご相談内容の詳細・その他事前にお伝えしておきたい事柄などをご入力ください
                   </label>
                   <div className="control">
                     <textarea
