@@ -1,16 +1,13 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 初めての自炊
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: 料理初心者から始める自炊ガイド
 mainpitch:
-  title: Why Kaldi
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    当サイトは、一人暮らし＆自炊初心者向けの料理サイトです。実際の料理レシピはもちろん、買い物の仕方・食品の保存方法・時短テクニックなど。
+    自炊に役立つ情報をまとめていきます。
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
