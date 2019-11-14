@@ -90,6 +90,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'text'}
                       name={'companyname'}
+                      placeholder={'例）◯△株式会社'}
                       onChange={this.handleChange}
                       id={'companyname'}
                       required={true}
@@ -105,6 +106,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'text'}
                       name={'name'}
+                      placeholder={'例）山田　太郎'}
                       onChange={this.handleChange}
                       id={'name'}
                       required={true}
@@ -120,12 +122,31 @@ export default class Index extends React.Component {
                       className="input"
                       type={'email'}
                       name={'email'}
+                      placeholder={'例）yamada@gmail.com'}
                       onChange={this.handleChange}
                       id={'email'}
                       required={true}
                     />
                   </div>
                 </div>
+                {/* ここから */}
+                <div className="field">
+                  <label className="label" htmlFor={'tel'}>
+                    ご連絡先のお電話番号をご入力ください
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'tel'}
+                      name={'tel'}
+                      placeholder={'例）000-0000-0000'}
+                      onChange={this.handleChange}
+                      id={'tel'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                {/* ここまで */}
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
                   ご質問・ご不明点・ご相談内容の詳細・その他事前にお伝えしておきたい事柄などをご入力ください
@@ -134,6 +155,7 @@ export default class Index extends React.Component {
                     <textarea
                       className="textarea"
                       name={'message'}
+                      placeholder={'例）弊社の製品をお試し頂きたく、ご連絡いたしました。'}
                       onChange={this.handleChange}
                       id={'message'}
                       required={true}
