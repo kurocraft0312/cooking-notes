@@ -13,9 +13,17 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html lang="ja" />
         <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        {/* OGP利用宣言 */}
+        <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#" />
+        {/* BASIC */}
         <meta name="description" content={description} />
         <meta name="keywords" content="自炊,自炊 初心者,自炊 初めて" />
         <meta name="author" content="kurocraft0312" />
+        <meta name="format-detection" content="telephone=no,email=no,address=no" />
+        {/* Web Clip(Retina対応) */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -38,6 +46,7 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
+        {/* 用途不明 */}
         <meta name="theme-color" content="#fff" />
         {/* OGP */}
         <meta property="og:type" content="website" />
