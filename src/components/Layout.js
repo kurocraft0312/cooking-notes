@@ -14,6 +14,8 @@ const TemplateWrapper = ({ children }) => {
         <html lang="ja" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="keywords" content="自炊,自炊 初心者,自炊 初めて" />
+        <meta name="author" content="kurocraft0312" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -37,10 +39,18 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
-        <meta property="og:type" content="business.business" />
+        {/* OGP */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="初めての自炊" />
         <meta property="og:title" content={title} />
+        <meta property="og:description" content="当サイトは、一人暮らし＆自炊初心者向けの料理サイトです。実際の料理レシピはもちろん、買い物の仕方・食品の保存方法・時短テクニックなど。 自炊に役立つ情報をまとめていきます。" />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
+        <meta property="og:local" content="ja_JP" />
+        {/* <meta property="fb:app_id" content="APP-ID（15文字）" /> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@kurocraft7522" />
+        <meta name="twitter:image" content="OGP画像のURL" />
       </Helmet>
       <Navbar />
       <div>{children}</div>
