@@ -6,7 +6,7 @@ heading: Great coffee with a conscience
 subheading: 料理初心者から始める自炊ガイド
 mainpitch:
   title: 後でどうにかしたい項目
-  description: >
+  description: >-
     当サイトは、一人暮らし＆自炊初心者向けの料理サイトです。実際の料理レシピはもちろん、買い物の仕方・食品の保存方法・時短テクニックなど。
     自炊に役立つ情報をまとめていきます。
 description: >-
