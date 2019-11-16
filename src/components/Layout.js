@@ -46,7 +46,7 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        {/* 用途不明 */}
+        {/* AndroidとiOSで見たときのテーマカラー */}
         <meta name="theme-color" content="#fff" />
         {/* OGP */}
         <meta property="og:type" content="website" />
@@ -60,6 +60,13 @@ const TemplateWrapper = ({ children }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@kurocraft7522" />
         <meta name="twitter:image" content="OGP画像のURL" />
+        {/* schema.org */}
+        script = {[
+          {
+            type="application/ld+json",
+            "@context": "http://schema.org/",
+          }
+        ]}
       </Helmet>
       <Navbar />
       <div>{children}</div>
