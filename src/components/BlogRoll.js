@@ -18,7 +18,6 @@ class BlogRoll extends React.Component {
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
-                <header>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -36,12 +35,10 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
-                </header>
+                  <span className="subtitle is-size-5 is-block">
+                    {post.frontmatter.date}
+                  </span>
                 <p>
                   {post.excerpt}
                   <br />
