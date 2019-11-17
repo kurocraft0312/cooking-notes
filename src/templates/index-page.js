@@ -85,6 +85,7 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
+                {/* ここから */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                   特集
@@ -96,6 +97,7 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                {/* ここまで */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                   基本知識
