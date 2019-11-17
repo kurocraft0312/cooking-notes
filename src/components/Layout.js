@@ -60,13 +60,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@kurocraft7522" />
         <meta name="twitter:image" content="OGP画像のURL" />
-        {/* schema.org */}
-        script = {[
-          {
-            type="application/ld+json",
-            "@context": "http://schema.org/",
-          }
-        ]}
+        <Schema />
       </Helmet>
       <Navbar />
       <div>{children}</div>
