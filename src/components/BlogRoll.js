@@ -28,14 +28,14 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
+                  <h2 className="post-title">
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                  </p>
+                  </h2>
                   <span className="subtitle is-size-5 is-block">
                     {post.frontmatter.date}
                   </span>
