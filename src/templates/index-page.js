@@ -87,9 +87,9 @@ export const IndexPageTemplate = ({
                 </div> */}
                 {/* ここから */}
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="has-text-weight-semibold is-size-2">
                   特集
-                  </h3>
+                  </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/recipes">
@@ -99,9 +99,9 @@ export const IndexPageTemplate = ({
                 </div>
                 {/* ここまで */}
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="has-text-weight-semibold is-size-2">
                   基本知識
-                  </h3>
+                  </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/recipes">
@@ -110,9 +110,9 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="has-text-weight-semibold is-size-2">
                   節約
-                  </h3>
+                  </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/recipes">
@@ -121,9 +121,9 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="has-text-weight-semibold is-size-2">
                   レシピ
-                  </h3>
+                  </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/recipes">
@@ -132,9 +132,9 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <div className="has-text-weight-semibold is-size-2">
                   時短
-                  </h3>
+                  </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/recipes">
